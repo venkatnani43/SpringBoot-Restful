@@ -24,6 +24,7 @@ public class EmployeeController {
 
 	@PostConstruct
 	public void init() {
+		System.out.println("init");
 		list.add(new Employee(101, "venkat", 300000));
 		list.add(new Employee(102, "krishna", 300000));
 	}
