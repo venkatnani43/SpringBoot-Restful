@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SpringBootRestfulApplication {
 
 	public static void main(String[] args) {
+		System.out.println("Restful service");
 		SpringApplication.run(SpringBootRestfulApplication.class, args);
 	}
 
