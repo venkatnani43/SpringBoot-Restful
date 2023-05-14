@@ -1,5 +1,5 @@
 FROM eclipse-temurin:17
 EXPOSE 8081
-ADD target/*.jar springbooot-restful.jar 
-ENTRYPOINT ["java","-jar","/springbooot-restful.jar"]
+ADD target/devops-integration.jar devops-integration.jar
+ENTRYPOINT ["java","-jar","/devops-integration.jar"]
 
